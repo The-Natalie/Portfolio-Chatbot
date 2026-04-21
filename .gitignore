@@ -1,0 +1,17 @@
+# Environment variables - never commit API keys
+.env
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# Jupyter (if notebooks are ever added)
+.ipynb_checkpoints
