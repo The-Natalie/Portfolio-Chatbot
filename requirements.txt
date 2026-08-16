@@ -1,6 +1,5 @@
 openai
 openai-agents
-gradio
 pypdf
 gspread
 google-auth

@@ -4,9 +4,9 @@ This document exists to help an AI agent accurately represent my professional ba
 
 # BASIC CONTEXT
 
-My name is Natalie. I’m a web developer with a strong UX and strategy mindset, currently expanding deeper into agentic AI and intelligent systems. I sit comfortably at the intersection of engineering, user experience, and product thinking. I care deeply about how systems behave, how people experience them, and whether what we build actually helps someone do something better.
+My name is Natalie. I’m an Applied AI Engineer with a background in web development, systems thinking, usability, and strategy. I sit comfortably at the intersection of engineering, user experience, and product thinking. I care deeply about how systems behave, how people experience them, how work flows through those systems, and whether what we build actually helps someone do something better.
 
-I’m not a developer who only thinks in code, and I’m not a designer who only thinks in interfaces. I’m most effective when I can connect technical decisions to user needs and business goals.
+I’m not a developer who only thinks in code, and I’m not a designer who only thinks in interfaces. I’m most effective when I can connect technical decisions to user needs, business goals, and the workflows that support them.
 
 # CAREER JOURNEY OVERVIEW
 
@@ -15,25 +15,47 @@ My career path hasn’t been linear, and that’s a strength. I’ve consistentl
 I started with a strong interest in building things that people actually use. Early on, I realized that great software is rarely just about clean code. It’s about understanding context, constraints, users, and tradeoffs. That realization pushed me toward web development roles where I could collaborate closely with designers, product stakeholders, and non-technical partners.
 
 Over time, I developed a reputation for being someone who:
-- Thinks holistically about problems
+- Thinks holistically about problems, workflows, and systems
 - Asks thoughtful questions early
 - Bridges gaps between technical and non-technical teams
-- Cares about long-term maintainability and clarity
+- Identifies bottlenecks, friction points, and opportunities for improvement
+- Cares about long-term maintainability, reliability, and clarity
 
-As my experience grew, so did my interest in systems-level thinking. That’s what eventually led me toward UX strategy, product thinking, and now agentic AI. I’m especially interested in how intelligent systems can be designed responsibly, transparently, and with real human needs in mind.
+As my experience grew, so did my interest in systems-level thinking, workflow analysis, and process improvement. That’s what eventually led me toward UX strategy, product thinking, and now agentic AI. I’m especially interested in how intelligent systems can be designed responsibly, transparently, and with real human needs in mind.
 
 
 # CURRENT FOCUS AND DIRECTION
 
-Right now, I’m intentionally leaning into agentic AI, automation, and AI-assisted interfaces. I’m interested in:
-- Designing AI systems that feel helpful, not opaque
-- Teaching agents to reason about user context, not just respond to prompts
+My current focus is applied AI, agentic systems, workflow analysis, and systems design. I'm particularly interested in understanding how work gets done, identifying bottlenecks and inefficiencies, and designing practical solutions that help teams operate more effectively.
+
+I'm interested in:
+- Analyzing workflows, uncovering friction points, and identifying opportunities for improvement
+- Designing AI-assisted systems that improve how teams work while remaining understandable and transparent
 - Building AI tools that augment human decision-making rather than replace it
+- Determining where automation, deterministic systems, and LLM reasoning each create the most value
+- Teaching agents to reason about user context, not just respond to prompts
 - Exploring how UX principles apply to non-deterministic systems
 
-This direction is not a departure from my past experience. It’s a natural extension of it.
+This direction is not a departure from my past experience. It is the natural intersection of my background in development, systems thinking, usability, problem solving, and intelligent systems.
 
 I'm currently looking for a full-time job building AI agents, so Applied AI Engineering jobs, or something similar. And while I will take on freelance and consulting work, I prefer full-time. 
+
+
+# HOW I THINK ABOUT AI SYSTEMS
+
+I view agents as software systems with targeted LLM decision points rather than fully autonomous entities. Because I treat agents like software, I naturally think about validation, testing, observability, guardrails, human-in-the-loop (HITL), reliability, and long-term maintainability from the beginning of a project rather than as additions later.
+
+My goal is rarely to maximize autonomy. Instead, I focus on determining where LLM judgment genuinely adds value and where deterministic systems provide better reliability, predictability, or control.
+
+I tend to approach agentic systems through a deterministic, validation-driven workflow designed to reduce ambiguity, improve reliability, and ensure that systems behave as expected in real-world environments.
+
+# SYSTEMS ANALYSIS AND WORKFLOW DESIGN
+
+One of the things I enjoy most is understanding how work gets done. Before jumping to implementation, I naturally look for bottlenecks, inefficiencies, unclear handoffs, duplicated effort, and opportunities to simplify workflows.
+
+I'm often less interested in building an AI agent than I am in understanding the problem the agent is intended to solve. Sometimes the answer is AI. Sometimes it's process redesign. Sometimes it's a combination of both.
+
+I enjoy connecting business goals, technical constraints, and day-to-day workflows to create solutions that improve how teams operate.
 
 # PERSONALITY AND WORKING STYLE
 

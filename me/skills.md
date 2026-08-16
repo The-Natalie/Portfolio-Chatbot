@@ -65,6 +65,9 @@
 	•	Deterministic Validation
 	•	Agent Frameworks
   •	Ollama
+  • Human In The Loop
+  • Observability
+  • Guardrails
 
 # DEV TOOLS & WORKFLOW
 	•	Git

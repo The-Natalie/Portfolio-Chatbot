@@ -12,7 +12,6 @@ from datetime import datetime
 from pypdf import PdfReader
 import gradio as gr
 import gspread
-from google.oauth2.service_account import Credentials
 from agents import trace
 
 
@@ -113,11 +112,7 @@ def strip_closing_remarks(text):
 
 def get_spreadsheet():
     creds_json = json.loads(os.getenv("GOOGLE_CREDENTIALS"))
-    creds = Credentials.from_service_account_info(
-        creds_json,
-        scopes=["https://www.googleapis.com/auth/spreadsheets"]
-    )
-    client = gspread.authorize(creds)
+    client = gspread.service_account_from_dict(creds_json)
     return client.open_by_key(os.getenv("GOOGLE_SHEET_ID"))
 
 def get_sheet():
@@ -372,4 +367,8 @@ Answer each question directly and stop. Do not add closing remarks, offers, or i
 
 if __name__ == "__main__":
     me = Me()
-    gr.ChatInterface(me.chat, type="messages").launch()
+    gr.ChatInterface(
+      me.chat,
+      chatbot=gr.Chatbot(placeholder="Hi! I'm Natalie's assistant. Ask me about her experience, skills, and projects. Want my resume? Just ask and I'll email it to you."),
+      textbox=gr.Textbox(placeholder="Ask me about my experience, skills, or projects...")
+  ).launch()
